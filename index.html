@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Belajar HTML Dasar">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+    <meta name="author" content="Fadel Muhammad">
+    <link rel="stylesheet" href="style.css">
+    <title>BELAJAR HTML</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="video.html">Video</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Hi, Nama Saya Fadel</h1>
+        <hr>
+        <p>Saya adalah mahasiswa jurusan teknik komputer. Dan saat ini saya sedang mempelajari cara membuat website
+            sampai bisa</p>
+
+        <h2>Mengapa harus belajar HTML?</h2>
+        <p>Karena HTML adalah bahasa dasar untuk membuat sebuah website.</p>
+        <p>Jika kita ingin membuat website, kita harus belajar HTML terlebih dahulu</p>
+
+        <h3>Apa keuntungan belajar HTML?</h3>
+        <ul>
+            <li>Kita bisa membuat website</li>
+            <li>Kita bisa menambah wawasan tentang dunia pemrograman</li>
+            <li>Kita bisa membuat portofolio online</li>
+            <li>Kita bisa mendapatkan pekerjaan sebagai web developer</li>
+        </ul>
+
+        <section>
+            <h3>Adapun hobi saya</h3>
+            <ul>
+                <li>Bermain game</li>
+                <li>Menonton film</li>
+            </ul>
+        </section>
+
+        <article>
+            <h3>Adapun game favorit saya</h3>
+            <ol>
+                <li>Rosblok</li>
+                <li>Valorant</li>
+            </ol>
+        </article>
+
+        <!-- Contact Me (scroll ke form) -->
+        <section>
+            <h2><a href="#form">Contact Me</a></h2>
+            <audio controls>
+                <source
+                    src="Danza Kuduro Remix Version Extendida - Don Omar Ft. Lucenzo & Daddy Yankee & Arcangel & Akon.mp3"
+                    type="audio/mpeg">
+            </audio>
+        </section>
+
+        <br><br>
+
+        <figure>
+            <a href="https://www.instagram.com/fadel.moehamad/" target="_blank">Link Instagram</a><br><br>
+            <img src="aji.png" width="200" alt="Foto Saya"><br>
+            <figcaption>Ini adalah foto saya</figcaption>
+        </figure>
+
+        <h2>Nama teman saya</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                    <th>Hobi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td rowspan="2">Fadel</td>
+                    <td rowspan="2">22</td>
+                    <td>Tidur</td>
+                </tr>
+                <tr>
+                    <td>Game</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Aji</td>
+                    <td>21</td>
+                    <td>Makan</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Budi</td>
+                    <td>22</td>
+                    <td>Nonton</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- Form HTML -->
+        <section id="form">
+            <h2>Formulir Kontak</h2>
+            <form action="" method="">
+                <!-- Nama -->
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama"><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <!-- Password -->
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <!-- Jenis Kelamin -->
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" id="pria" name="gender" value="Pria">
+                <label for="pria">Pria</label><br>
+                <input type="radio" id="wanita" name="gender" value="Wanita">
+                <label for="wanita">Wanita</label><br><br>
+
+                <!-- Hobi -->
+                <label>Hobi:</label><br>
+                <input type="checkbox" id="gaming" name="hobi" value="Gaming">
+                <label for="gaming">Main Game</label><br>
+                <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+                <label for="membaca">Membaca</label><br><br>
+
+                <!-- Jurusan -->
+                <label for="jurusan">Jurusan:</label><br>
+                <select name="jurusan" id="jurusan">
+                    <option value="Teknik Komputer">Teknik Komputer</option>
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                </select><br><br>
+
+                <!-- Submit -->
+                <button type="submit">Daftar</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Belajar HTML. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
